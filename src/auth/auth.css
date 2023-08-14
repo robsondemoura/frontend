@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+.wrapper{
+    background-color: #fff !important;
+}
+
+.login-box-body{
+    background-color: #eee;
+    padding: 30px;
+    
+}
+
+
+.login-box-body .btn{
+    margin-left: 0px;
+    padding: 8px;
+}
+.login-logo{
+    padding: 10px;
+    font-family: 'Alkatra', sans-serif;
+    font-size: 20px ;
+}
+
+ a:hover{
+    cursor: pointer;
+}
+.position {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ height: 100vh;
+ 
+}

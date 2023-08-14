@@ -1,0 +1,16 @@
+.responsive{
+    display: flex;
+}
+.card-footer{
+    display: flex;
+    justify-content: flex-start;
+}
+button{
+    margin-left: 10px;
+}
+
+@media (max-width: 500px) and (orientation: portrait){
+.responsive{
+    display: block;
+}
+}

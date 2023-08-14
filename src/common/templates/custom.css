@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkatra:wght@400;500;600;700&display=swap');
+.gradientNavBar{
+    background-image: linear-gradient(to right, #5C01EB, #7C82EA );
+    color: #ffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+header{
+    display: flex;
+    align-items: center;
+}
+header h3{
+    padding: 3px;
+    margin-top:10px;
+    margin-right: 8px;
+    font-family: 'Alkatra', sans-serif;
+}
+
+.btn-primary{
+   background-color: #5C01EB;
+   padding: 2px;
+   border:none;
+}
+a{
+    color: black;
+}
+a:hover{
+    text-decoration: none;
+}
+
+.table-actions{
+    width: 150px;
+}
+.perfil{
+    padding:0px 15px 0px 15px;
+
+}
+
+
+@media (max-width: 500px) and (orientation: portrait){
+    .btn-warning{
+        margin-bottom: 5px;
+    }
+    }
