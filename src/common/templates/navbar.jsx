@@ -7,10 +7,10 @@ export default function Navbar(props){
 <nav className="navegation">
   <div>
         <DropdownButton title="Menu">
-            <Dropdown.Item href='/employees'>
+            <Dropdown.Item href='/'>
                 <MenuItem  label="Cadastro de Funcionários"/>
             </Dropdown.Item>
-            <Dropdown.Item href="/" >
+            <Dropdown.Item href="/tools" >
                 <MenuItem  label="Área de Visualização"/>
             </Dropdown.Item>
         </DropdownButton>
