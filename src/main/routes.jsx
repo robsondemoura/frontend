@@ -7,8 +7,8 @@ export default (props)=>{
     return (
         <BrowserRouter>
             <Routes>
-                <Route element={<Employee/>} path="/"/>
-                <Route element={<ToolFlow/>} path="/tools"/>
+                <Route element={<Employee/>} path="/employees"/>
+                <Route element={<ToolFlow/>} path="/"/>
             </Routes>
         </BrowserRouter>
     )
